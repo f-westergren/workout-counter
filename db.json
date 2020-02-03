@@ -1,0 +1,9 @@
+{
+  "athletes": [
+    {
+      "id": 1,
+      "name": "Folke Westergren",
+      "workouts": 32
+    }
+  ]
+}
