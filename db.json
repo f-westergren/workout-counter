@@ -3,7 +3,62 @@
     {
       "id": 1,
       "name": "Folke Westergren",
-      "workouts": 32
+      "workouts": [
+        {
+          "type": "Crossfit",
+          "date": "2020-02-03",
+          "note": "Folkes hard workout!",
+          "id": 1
+        },
+        {
+          "type": "Crossfit",
+          "date": "2020-03-03",
+          "note": "Folkes even harder workout!",
+          "id": 2
+        },
+        {
+          "type": "Styrketräning",
+          "date": "2020-02-04",
+          "note": "Pass 3",
+          "id": 3
+        },
+        {
+          "type": "Gym",
+          "date": "2020-02-05",
+          "note": "Beefcake!",
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Linda Holm",
+      "workouts": [
+        {
+          "type": "Crossfit",
+          "date": "2020-02-03",
+          "note": "Lindas hard workout!",
+          "id": 1
+        },
+        {
+          "type": "Crossfit",
+          "date": "2020-03-03",
+          "note": "Lindas even harder workout!",
+          "id": 2
+        },
+        {
+          "type": "Yoga",
+          "date": "2020-02-04",
+          "note": "Morgonyoga! Gravidyoga!",
+          "id": 3
+        },
+        {
+          "type": "Yoga",
+          "date": "2020-02-05",
+          "note": "Mera yoga idag :)",
+          "id": 4
+        }
+      ]
     }
   ]
 }

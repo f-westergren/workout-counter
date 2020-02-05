@@ -9,16 +9,7 @@ const Athletes = (props) => (
         {props.workouts}
       </td>
       <td>
-        <button onClick={props.add}>+1</button>
-      </td>
-      <td>
-        <button onClick={props.sub}>-1</button>
-      </td>
-      <td>
-        <button onClick={props.reset}>reset</button>
-      </td>
-      <td>
-        <button onClick={props.remove}>delete</button>
+        <button onClick={props.remove}>delete athlete</button>
       </td>
     </tr>
 )
