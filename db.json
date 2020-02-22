@@ -27,6 +27,18 @@
           "date": "2020-02-05",
           "note": "Beefcake!",
           "id": 4
+        },
+        {
+          "type": "Styrketräning",
+          "date": "2020-02-18",
+          "note": "Testing again",
+          "id": 5
+        },
+        {
+          "type": "Testgin",
+          "date": "2020-02-19",
+          "note": "Ajemen",
+          "id": 6
         }
       ]
     },
@@ -57,8 +69,32 @@
           "date": "2020-02-05",
           "note": "Mera yoga idag :)",
           "id": 4
+        },
+        {
+          "type": "Hot Yoga",
+          "date": "2020-02-20",
+          "note": "Because I'm pregnant!",
+          "id": 5
+        },
+        {
+          "type": "Hot Yoga",
+          "date": "2020-02-13",
+          "note": "Hon e ball",
+          "id": 6
         }
       ]
+    },
+    {
+      "name": "Niklas Emmelkamp",
+      "workouts": [
+        {
+          "type": "Bygga",
+          "date": "2020-02-16",
+          "note": "Stark som fan!",
+          "id": 1
+        }
+      ],
+      "id": 3
     }
   ]
 }

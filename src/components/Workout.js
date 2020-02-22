@@ -8,7 +8,11 @@ const Workout = (props) => {
         <tbody>
           <tr>
             <td>Athlete: </td>
-            <td><input value={props.name} onChange={props.nameChange} /></td>
+            <td>
+              <select onChange={props.nameChange}>
+                {props.name.map(athlete => <option value={athlete} key={athlete}>{athlete}</option>)}
+              </select>
+            </td>
           </tr>
           <tr>
             <td>Workout: </td>

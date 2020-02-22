@@ -9,7 +9,7 @@ const NewForm = (props) => {
           value={props.value}
           onChange={props.onChange}
         />
-        <button type="submit">Lägg till deltagare</button>
+        <button type="submit">Add Athlete</button>
       </form>
     </div>
     )
