@@ -35,10 +35,22 @@ const App = () => {
   const removeAthlete = (athleteId, name) => {
     if (window.confirm(`Delete ${name}?`)) {
       athleteService
-        .remove(athleteId)
+        .removeAthlete(athleteId)
   
       setAthletes(athletes.filter(athlete => athlete.athleteId !== athleteId).sort(compare))
       setNewName('')
+    }
+  }
+
+  const removeWorkout = (athleteId, workoutId, type) => {
+    if (window.confirm(`Delete ${type} workout?`)) {
+      athleteService
+        .removeWorkout(workoutId)
+
+      setAthletes(athletes.filter())
+      
+
+
     }
   }
 

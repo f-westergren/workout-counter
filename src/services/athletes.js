@@ -16,6 +16,8 @@ const update = (athleteId, newObject) => {
   return request.then(response => response.data)
 }
 
-const remove = (athleteId) => axios.delete(`${baseUrl}/${athleteId}`)
+const removeAthlete = (athleteId) => axios.delete(`${baseUrl}/${athleteId}`)
 
-export default { getAll, create, update, remove }
+const removeWorkout = (athleteId, workoutId) => axios.delete(`${baseUrl}/${athleteId}/workouts/${workoutId}`)
+
+export default { getAll, create, update, removeAthlete, removeWorkout }
